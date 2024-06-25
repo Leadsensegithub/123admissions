@@ -1,0 +1,70 @@
+.Aboutus {
+    /* padding: 1%; */
+    margin-top: 2%;
+    /* text-align: center; */
+    font-size: 25px;
+    color: white;
+    background-color: #1ea698;
+
+}
+
+.Aboutus .kn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+    background-color: #1ea698;
+    padding: 1px 27px;
+}
+
+.Aboutus a {
+    color: white;
+    font-size: 12px;
+}
+
+.Aboutus .kn img {
+    border-radius: 50px;
+    width: 70%;
+
+}
+
+.Aboutus .kn button {
+    border-radius: 50px;
+    padding: 5;
+    background-color: white;
+    height: 60px;
+    border: none;
+}
+
+.Aboutus .social-media {
+    color: white;
+    margin-top: 20px;
+    background-color: #1ea698;
+    margin-left: 33px;
+}
+.Aboutus .social-media img{
+    margin-right: 10px;
+}
+.Aboutus .social-media svg {
+    margin-right: 30px;
+}
+
+.Aboutus .hp {
+    background-color: #1ea698;
+    padding-left: 20px;
+}
+
+.Aboutus .hp p {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+@media only screen and (max-width: 620px) {
+    .Aboutus .vbbbb {
+        display: none;
+    }
+    .Aboutus .dataimg{
+        width: 45% !important;
+    }
+}

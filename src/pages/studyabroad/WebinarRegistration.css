@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    ;
+}
+
+.studyabroard .header {
+    padding: 2%;
+    background-color: #f6f7fb;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.studyabroard .header img {
+    width: 65px;
+}
+
+.studyabroard .content .image img {
+    width: 100%;
+
+}
+
+.studyabroard .content .content-body {
+    margin: 12px;
+    border: 1px solid black;
+    /* padding: 5px; */
+    border-radius: 5px;
+    width: 45%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    .studyabroard .content .content-body {
+        margin: 12px !important;
+        border: 1px solid black;
+        /* padding: 5px; */
+        border-radius: 5px;
+        position: relative;
+        width: 100%;
+    }
+}
+
+.studyabroard .content .content-body .register-header {
+    background-color: rgb(34, 19, 19);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.studyabroard .content .content-body .field {
+    display: flex;
+    margin-top: 10px;
+}
+
+.studyabroard .content .content-body .register-body {
+    padding: 12px;
+}
+
+.studyabroard .content .content-body .register-body .label {
+    width: 30%;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.studyabroard .small {
+    color: red;
+}
+
+.studyabroard .content .content-body .register-body .input {
+    width: 70%;
+}
+
+.studyabroard .content .content-body .register-body .input input {
+    width: 100%;
+    height: 25px;
+    border: 1px solid rgb(167, 165, 165);
+    border-radius: 5px;
+}
+
+.studyabroard .content .content-body .register-body .input select {
+    width: 100%;
+    height: 25px;
+    border: 1px solid rgb(167, 165, 165);
+    border-radius: 5px;
+
+}
+
+.studyabroard .content .content-body button {
+    width: 100%;
+    height: 35px;
+    border: none;
+    background-color: #1ea698;
+    color: white;
+    border-radius: 5px;
+}
+
+.studyabroard .contact {
+    background-color: #1ea698;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.studyabroard .floter {
+    background-color: #1ea698;
+    margin-top: 20px;
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}

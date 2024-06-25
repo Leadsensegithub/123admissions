@@ -1,0 +1,322 @@
+.main-com {
+    padding: 5px;
+}
+
+.main-com {
+    margin-top: 5%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.main-com .main-com-content .p-content {
+    margin-top: 30px;
+}
+
+.intl-tel-input {
+    width: 100%;
+    /* margin-top: 20px; */
+}
+
+.main-com input {
+    margin-top: 0px;
+}
+
+.intl-tel-input input {
+
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(159, 154, 154);
+    border-radius: 5px;
+}
+
+.main-com .main-com-content .p-content p {
+    font-size: 25px;
+}
+
+.main-com .main-com-form {
+    padding: 5px;
+}
+
+.main-com .main-com-form .main-com-form-boby {
+    padding: 20px;
+    background-color: rgb(56, 54, 54);
+    color: white;
+    border-radius: 5px;
+}
+
+.main-com .submit {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--green1);
+    color: white;
+}
+
+.main-com .exp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #efefef;
+    padding: 24px 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.main-com .item {
+    flex-basis: 20%;
+    padding: 12px;
+}
+
+.main-com .exp h3 {
+    color: #FF270D;
+    font-weight: 700;
+}
+
+.main-com .exp p {
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0.16px;
+    font-weight: bold;
+}
+
+.main-com .exp-courses {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.main-com .item-courses {
+    flex-basis: 50%;
+    padding: 15px;
+}
+
+
+.main-com .item-courses h5 {
+    height: 50px;
+}
+
+.main-com .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.main-com .slick-prev:before {
+    content: none;
+}
+
+.main-com .slick-next:before {
+    content: none;
+}
+
+.main-com .slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 40%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: -44px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.main-com .slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 40%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.main-com .payment .card {
+    background-color: #434443;
+    color: white;
+    height: 194px;
+}
+
+.main-com h1 {
+    color: #1ea698;
+}
+
+.main-com .content-tag button {
+    width: 10%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.main-com .content-tag {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.main-com .content-tag .pt {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-com .content-tag .nt {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-com .content-tag h5 {
+    color: var(--green1);
+}
+
+.main-com .content-tag .active {
+    background-color: var(--green1);
+    color: white;
+}
+
+.main-com .item-courses .courses-content {
+    border: 1px solid #1ea698;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    /* box-shadow: 1px 1px 12px rgb(119, 117, 117); */
+    /* height: 150px; */
+}
+
+
+.main-com .courses-content button {
+    background-color: white;
+    border: 1px white;
+    color: black;
+    border-radius: 3px;
+}
+
+.main-com .cafiticate {
+    /* background-color: rgba(222, 214, 214, 0.477); */
+    display: flex;
+    /* justify-content: center; */
+    position: relative;
+    /* padding-left: 10%; */
+    padding: 20px;
+    border-radius: 5px;
+    background-image: url('../../assets/collegeView/Group\ 167.svg');
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    overflow-y: hidden;
+
+
+}
+
+.main-com .exp-pro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #efefef;
+    padding: 24px 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.logos {
+    display: flex;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main-com .p-content p {
+        font-size: 10px !important;
+    }
+
+    .main-com .exp-courses {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+
+    .slick-arrow {
+        display: none !important;
+    }
+
+    .main-com .item-courses {
+        flex-basis: 100%;
+        padding: 12px;
+    }
+
+    .main-com .item-courses h5 {
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .main-com {
+        margin-top: 20%;
+        padding: 5px;
+    }
+
+    .main-com .item {
+        flex-basis: 50%;
+        padding: 12px;
+    }
+
+    .main-com .cafiticate h1 {
+        color: black !important;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .main-com .cafiticate {
+        /* background-color: rgba(222, 214, 214, 0.477); */
+        display: flex;
+        /* justify-content: center; */
+        position: relative;
+        /* padding-left: 10%; */
+        padding: 20px;
+        border-radius: 5px;
+        background-image: none;
+        height: 300px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        color: white;
+
+
+    }
+
+
+    .main-com .exp {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #efefef;
+        padding: 9px;
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+
+}

@@ -1,0 +1,59 @@
+.landingpage .college-m {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    padding: 7px;
+    border-radius: 50px;
+    color: black;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 0px 20px 0px #dbdbdb;
+}
+.landingpage .college-m img{
+    border-radius: 43px;
+}
+.landingpage .college-m button{
+    border-radius: 43px;
+}
+.landingpage .college-m .tex{
+    text-align: start;
+    padding: 20px;
+}
+
+.landingpage .college-m .content-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 27%;
+    height: 210px;
+    padding-left: 20px;
+    padding-top: 30%;
+    background-color: rgba(0, 0, 0, 0.405);
+    width: 100%;
+    color: white;
+
+}
+
+.landingpage .college-m .content-img h5 {
+    color: white;
+}
+
+.landingpage .college-m button {
+    color: black;
+    background-color: #ededff;
+    border: 1px solid #8080803d;
+    border-radius: 39px;
+    padding: 12px 18px;
+    height: 64px;
+    margin-top: 41%;
+    margin-left: 8px;
+    position: absolute;
+    top: 0;
+    width: 95.8%;
+    left: 0;
+   
+}
+
+.landingpage .college-m p {
+    color: white;
+}

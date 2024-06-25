@@ -1,0 +1,132 @@
+.sample {
+    width: 100%;
+}
+
+.sample .sample-header {
+    background-color: #1EA698;
+    padding: 5%;
+
+}
+
+.sample .sample-header .img-content {
+    display: flex;
+    justify-content: center;
+}
+
+.sample .sample-header .img-content .img-body {
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sample .sample-header .bh {
+    display: flex;
+}
+
+.sample .sample-header .bh .a {
+    width: 50%;
+}
+
+.sample .sample-header .bh .s {
+    width: 50%;
+}
+
+.sample .sample-header .bh button {
+    width: 95%;
+    /* height: 40px; */
+
+}
+
+.sample .sample-header .bh .a button {
+    background-color: #1EA698;
+    border: 4px solid white;
+    padding: 10px 0px;
+}
+
+.sample .sample-header .bh .s button {
+    background-color: white;
+    color: black;
+    padding: 10px 0px;
+    border: 4px solid white;
+}
+
+.sample .sample-header .complex {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 10px;
+    display: none;
+}
+
+.sample .program {
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    padding: 0% 10%;
+    background-image: url('../assets/Off\ The\ Grid\ Collage\ Desktop\ Wallpaper\ \(2\)\ 1.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+
+.sample .card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sample .last {
+    margin-top: 5%;
+    /* background-color: #1EA698; */
+    /* padding: 30px; */
+    /* color: white; */
+}
+
+.sample .last h3 {
+    color: var(--green1);
+}
+
+.sample .c-last {
+    margin-top: 20px;
+    background-color: white;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right, #1ea698 70%, rgb(29 192 192));
+    text-align: center;
+}
+
+.sample .admis {
+    margin-top: 5%;
+}
+
+.sample .admis h3 {
+    color: var(--green1);
+    margin-bottom: 20px;
+}
+
+.sample .c-admis {
+    background-color: white;
+    height: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.sample .slick-prev:before {
+    content: none;
+}
+
+.sample .Invest {}
+
+@media only screen and (max-width: 600px) {
+    .sample .slick-arrow {
+        display: none !important;
+    }
+
+    .sample {
+        margin-top: 10%;
+    }
+}

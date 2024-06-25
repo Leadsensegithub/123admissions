@@ -1,0 +1,83 @@
+.AbroadUniversity {
+    margin-top: 6%;
+    padding: 10px;
+}
+
+.AbroadUniversity .card-abroaduniversity {
+    text-align: center;
+}
+
+.AbroadUniversity .card-abroaduniversity button {
+    width: 100%;
+    border: none;
+    padding: 10px 30px;
+    background-color: rgb(30 166 152);
+    color: white;
+}
+
+.AbroadUniversity .card-abroaduniversity button:hover {
+    background-color:  rgb(27, 135, 124);
+}
+
+.AbroadUniversity .from-abroad {
+    background-image: url("../../assets/universityBackground/Golden\ Gate\ university.jpg");
+    background-size: 100%;
+    height: 585px;
+    margin-left: -20px;
+    margin-right: -20px;
+
+}
+
+.AbroadUniversity .from-abroad::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.intl-tel-input {
+    width: 100%;
+}
+
+.intl-tel-input input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(159, 154, 154);
+    border-radius: 10px;
+}
+
+.AbroadUniversity .from-abroad button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.AbroadUniversity .from-abroad .col-12 {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.AbroadUniversity .studyabroad {
+    font-size: 40px;
+    color: white;
+    z-index: 10;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+
+.style {
+
+    background: linear-gradient(90deg, #ce1a1a89 40.16%, #5740e3 85.79%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

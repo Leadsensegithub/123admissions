@@ -1,0 +1,25 @@
+.exploremobile .active {
+    background-color: rgb(203, 196, 196);
+
+}
+
+.exploremobile {
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+    margin-bottom: 40px;
+}
+
+.exploremobile .app-button,
+.app-button-uni {
+    width: 100%;
+    font-size: 14px;
+
+    text-align: start;
+    padding: 15px 10px;
+    cursor: pointer;
+    border: 1px solid rgb(215, 212, 212);
+    border-radius: 5px;
+    margin: 10px 0px;
+    color: rgb(96, 92, 92);
+}

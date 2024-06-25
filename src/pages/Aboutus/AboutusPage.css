@@ -1,0 +1,206 @@
+.aboutPage {
+  padding: 0px;
+  padding-top: 5%;
+}
+
+.aboutPage .aboutusvideo {
+  background: linear-gradient(180deg, #00534A 0%, #002420 55.5%);
+  margin-left: -8px;
+  margin-right: -8px;
+  height: 450px;
+}
+
+.aboutPage .aboutusvideo .video {
+  position: absolute;
+  left: 0;
+}
+
+.aboutPage .aboutusvideo .video img {
+  height: 500px;
+  cursor: pointer;
+
+}
+
+.aboutPage .contetn-aboutus h1 {
+  margin-top: 20%;
+  font-size: 40px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #e3e3ee;
+  margin-left: -55px;
+
+}
+
+.aboutPage .missions {
+  margin-top: 50%;
+  float: right;
+  width: 40%;
+  font-weight: 900;
+}
+
+.aboutPage .conteent-card-about {
+  background-color: white;
+  height: 500px;
+  margin: 20% 11%;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+}
+
+.aboutPage .conteent-card-about p {
+  font-size: 14px;
+  color: black;
+}
+
+.aboutPage .OurJourney {
+  background-color: #000;
+  padding: 20px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.aboutPage .OurJourney .our {
+  border: 4px solid #1EA698;
+  padding: 30px 50px 30px 50px;
+  color: white;
+  border: 4px solid;
+  background: linear-gradient(180deg, #1EA698 22%, #000000 93.5%);
+  margin-top: -22%;
+}
+
+.aboutPage .ipo {
+  text-align: center;
+}
+
+.aboutPage .ipos {
+  padding: 20% 10%;
+  color: black;
+}
+
+.aboutPage .seemore {
+  margin-left: -8px;
+  margin-right: -8px;
+  background: linear-gradient(90deg, #007569 26.5%, #1EA698 100%);
+  padding: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+}
+
+.aboutPage .ccc {
+  background-image: url('../../assets/aboutus/Mask\ group.svg');
+  height: 230px;
+  background-color: black;
+  margin-top: 7%;
+  background-repeat: no-repeat;
+  width: 20%;
+  margin-left: -8%;
+  position: relative;
+  padding: 20px 31px 20px 65px;
+  color: white;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.aboutPage .ccc button {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  background: linear-gradient(270deg, #1EA698 0%, #348179 100%);
+  color: white;
+}
+
+.aboutPage .card-abpout {
+  background: linear-gradient(181.49deg, #1EA698 4.53%, #007B6F 85.8%);
+  height: 200px;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 20px 40px;
+}
+
+.aboutPage .fffff {
+  background-image: url('../../assets//aboutus/Group\ 189.svg');
+  height: 600px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.aboutPage .g-card {
+  position: relative;
+  width: 30%;
+  background-color: white;
+  border-radius: 10px;
+  height: 400px;
+  padding: 20px;
+  box-shadow: 1px 1px 12px #baaaaa;
+}
+
+.aboutPage .g-card-2 {
+  position: relative;
+  width: 30%;
+  background-color: #FBFDFF;
+  border-radius: 10px;
+  height: 400px;
+  padding: 20px;
+  z-index: -1;
+  margin-left: 20px;
+  transform: rotate(20deg);
+
+
+
+  /* 45-degree angle for the gradient */
+
+
+}
+
+.aboutPage .g-card-2 p {
+  color: #0B8D7E66;
+  font-size: 18px;
+  text-align: center;
+
+}
+
+.aboutPage .g-card-3 {
+  position: relative;
+  width: 30%;
+  background-color: #FBFDFF;
+  border-radius: 10px;
+  height: 400px;
+  padding: 20px;
+  z-index: -1;
+  margin-right: 20px;
+  transform: rotate(-20deg);
+
+}
+
+.aboutPage .g-card-3 p {
+  color: #0B8D7E66;
+  font-size: 18px;
+  text-align: center;
+}
+
+.aboutPage .g-card p {
+  color: #1EA698;
+  font-size: 18px;
+  text-align: center;
+}
+
+.aboutPage .arrow img {
+
+  width: 6%;
+  cursor: pointer;
+
+}
+
+.aboutPage .arrow {
+  margin-top: 10%;
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}

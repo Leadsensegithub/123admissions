@@ -1,0 +1,90 @@
+.AUpayment {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.AUpayment .payment-ui {
+    border: 1px solid rgb(215, 206, 206);
+    width: 50%;
+    text-align: center;
+    padding: 20px 10%;
+    border-radius: 10px;
+
+}
+
+.AUpaymentmain img {
+    width: 50%;
+    margin-bottom: 43px;
+}
+
+.AUpaymentmain h3 {
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #8d8df1;
+}
+
+.AUpaymentmain .h2tag {
+    font-size: 12px !important;
+    color: #979797 !important;
+}
+
+.payment-button {
+    background: rgb(26, 53, 210);
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+
+.AUpaymentmain input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(208, 207, 207);
+}
+
+.intl-tel-input {
+    width: 100%;
+    /* margin-top: 20px; */
+}
+
+@media only screen and (max-width: 600px) {
+    .AUpaymentmain img {
+        width: 97%;
+        margin-bottom: 43px;
+    }
+
+    .AUpaymentmain h3 {
+        font-size: 11px;
+        font-weight: 600;
+        margin-top: 30%;
+        text-align: center;
+        margin-bottom: 3px;
+        color: #8d8df1;
+    }
+
+    .AUpaymentmain .h2tag {
+        font-size: 7px !important;
+        color: #979797 !important;
+    }
+
+    .AUpayment {
+        padding-top: 0%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .AUpayment .payment-ui {
+        border: 1px solid #d7cece;
+        border-radius: 10px;
+        padding: 31px 10px;
+        text-align: center;
+        width: 100%;
+        box-shadow: 1px 1px 1px #d1c3c3;
+        margin: 20px 20px 8px 20px;
+    }
+}
