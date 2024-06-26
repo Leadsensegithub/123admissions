@@ -61,15 +61,12 @@
 }
 
 .sample .program {
-    margin-top: 10%;
+    margin-top: 3%;
     width: 100%;
     display: flex;
     padding: 0% 10%;
-    background-image: url('../assets/Off\ The\ Grid\ Collage\ Desktop\ Wallpaper\ \(2\)\ 1.svg');
     background-repeat: no-repeat;
     background-size: 100%;
-    /* text-align: center; */
-    /* justify-content: center; */
 }
 
 .sample .card {
@@ -119,11 +116,21 @@
     content: none;
 }
 
+.sample li {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
 .sample .Invest {}
 
 @media only screen and (max-width: 600px) {
     .sample .slick-arrow {
         display: none !important;
+    }
+
+    .sample li {
+        font-size: 10px;
+
     }
 
     .sample {

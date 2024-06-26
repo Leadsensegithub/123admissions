@@ -5,10 +5,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Left from '../assets/aboutus/Group 194.svg'
 import rigth from '../assets/aboutus/Group 195.svg'
-import Image from '../assets/image 27.svg'
-import Image2 from '../assets/image 15.svg'
-import Image3 from '../assets/image 14.svg'
-import backgrounf from '../assets/Off The Grid Collage Desktop Wallpaper (2) 1.svg'
 import img1 from '../assets/image 16.svg'
 import img2 from '../assets/image 17.svg'
 import img3 from '../assets/image 18.svg'
@@ -19,7 +15,6 @@ import imagecard1 from '../assets/seo_9955833 1.svg'
 import imagecard2 from '../assets/briefcase_9527218 1.png'
 import imagecard3 from '../assets/question_8427799 1.svg'
 import imagecard4 from '../assets/structure_7286844 1.svg'
-import Professor from '../assets/PROFESSOR.svg'
 import pro1 from '../assets/image 40.svg'
 import pro2 from '../assets/image 44.svg'
 import pro3 from '../assets/image 45.svg'
@@ -98,7 +93,7 @@ function Sample() {
   ]
   const [course, setcourse] = useState([])
 
-  console.log(course[0])
+
 
 
   const fetchData = async () => {
@@ -144,13 +139,13 @@ function Sample() {
   };
 
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    prevArrow: <PrevArrow />, // Use custom previous arrow component
-    nextArrow: <NextArrow />, // Use custom next arrow component
+    autoplay: true,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 668, // Adjust this value as per your design for mobile devices
@@ -180,7 +175,7 @@ function Sample() {
                   <button className='btn btn-primary' onClick={() => setSuccess(true)}>Apply Now</button>
                 </div>
                 <div className='s'>
-                  <button className='btn btn-primary'>Contact Us</button>
+                  <button className='btn btn-primary' onClick={() => setSuccess(true)}>Contact Us</button>
                 </div>
               </div>
             </div>
@@ -268,22 +263,22 @@ function Sample() {
                   <h3 style={{ marginBottom: "10%" }}>Programme Overview</h3>
                 </li>
                 <li style={{ marginTop: "20px" }}>
-                  <img src={img1}></img>Certificate from BIMTECH in association with 123Admissions
+                  <img style={{ marginRight: "10px" }} src={img1}></img>Certificate from {course[0]?.universityName} in association with 123Admissions
                 </li>
                 <li style={{ marginTop: "20px" }}>
-                  <img src={img2}></img>Core Management Courses + Deep-Dive into specialisation
+                  <img style={{ marginRight: "10px" }} src={img2}></img>Core Management Courses + Deep-Dive into specialisation
                 </li>
                 <li style={{ marginTop: "20px" }}>
-                  <img src={img3}></img>100% flexibility through recorded content
+                  <img style={{ marginRight: "10px" }} src={img3}></img>100% flexibility through recorded content
                 </li>
                 <li style={{ marginTop: "20px" }} >
-                  <img src={img4}></img>3 Certification Options - Marketing, Operations, IT Management
+                  <img style={{ marginRight: "10px" }} src={img4}></img>3 Certification Options {course[0]?.courseName}
                 </li>
                 <li style={{ marginTop: "20px" }}>
-                  <img src={img5}></img>AACSB Accredited B-School
+                  <img style={{ marginRight: "10px" }} src={img5}></img>AACSB Accredited B-School
                 </li>
                 <li style={{ marginTop: "20px" }}>
-                  <img src={img6}></img>Instant program start after payment
+                  <img style={{ marginRight: "10px" }} src={img6}></img>Instant program start after payment
                 </li>
               </ul>
             </div>
@@ -301,7 +296,7 @@ function Sample() {
                       </div>
                       <div className='col-lg-12'>
                         <h3>Top Skills You Will Learn</h3>
-                        <p>Core management skills along with a deep-dive into the certification area available - Marketing, Operations and IT.</p>
+                        <p style={{ marginBottom: "0px" }}>Core management skills along with a deep-dive into the certification area available - Marketing, Operations and IT.</p>
                       </div>
                     </div>
                   </div>
@@ -316,7 +311,7 @@ function Sample() {
                       </div>
                       <div className='col-lg-12'>
                         <h3>Job Opportunities</h3>
-                        <p>Marketing Manager, Digital Marketing, IT Managers, Operations Managers, Supply Chain Managers</p>
+                        <p style={{ marginBottom: "0px" }}>Marketing Manager, Digital Marketing, IT Managers, Operations Managers, Supply Chain Managers</p>
                       </div>
                     </div>
                   </div>
@@ -331,7 +326,7 @@ function Sample() {
                       </div>
                       <div className='col-lg-12'>
                         <h3>Who is this Program For?</h3>
-                        <p>- Professionals looking to upskill themselves in marketing, operations or IT management through a certification from a reputed Indian institute.</p>
+                        <p style={{ marginBottom: "0px" }} >- Professionals looking to upskill themselves in marketing, operations or IT management through a certification from a reputed Indian institute.</p>
                       </div>
                     </div>
                   </div>
@@ -346,22 +341,18 @@ function Sample() {
                       </div>
                       <div className='col-lg-12'>
                         <h3>Minimum Eligibility</h3>
-                        <p>Core management skills along with a deep-dive into the certification area available - Marketing, Operations and IT.</p>
+                        <p style={{ marginBottom: "0px" }}>Core management skills along with a deep-dive into the certification area available - Marketing, Operations and IT.</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className='col-lg-12'>
+              <div className='col-lg-12 mt-4'>
                 <div className=''>
                   <h1>Instructors</h1>
                 </div>
-                <div className='img-pro'>
-                  <img src={Professor} style={{ width: "100%" }}></img>
-                </div>
-
               </div>
-              <div className='col-lg-12'>
+              <div className='col-lg-12 mt-4'>
                 <Slider {...settings}>
                   {profes.map((d, index) => (<div className='c-pro'>
                     <div className='row' style={{ backgroundColor: "white", margin: "10px", padding: "10px", borderRadius: "20px", boxShadow: "6px 6px 12px 0px #00000021" }}>
@@ -391,35 +382,35 @@ function Sample() {
                       <p>Best-in-class content by leading faculty and industry leaders in the form of videos, cases and projects, assignments and live session</p>
                       <p>Curriculum is subject to change basis validation from Faculty and industry experts*</p>
                     </div>
-                    <div className='col-lg-2'>
+                    <div className='col-lg-3'>
                       <div className='c-last'>
-                        <p>5</p>
-                        <p>Months</p>
+                        <p style={{ marginBottom: "0px" }}>5</p>
+                        <p >Months</p>
                       </div>
                     </div>
-                    <div className='col-lg-2'>
+                    <div className='col-lg-3'>
                       <div className='c-last'>
-                        <p>500+</p>
+                        <p style={{ marginBottom: "0px" }}>500+</p>
                         <p>Hours of Teaching</p>
                       </div>
                     </div>
-                    <div className='col-lg-2'>
+                    <div className='col-lg-3'>
                       <div className='c-last'>
-                        <p>7</p>
+                        <p style={{ marginBottom: "0px" }}>7</p>
                         <p>Course Projects</p>
                       </div>
                     </div>
-                    <div className='col-lg-2'>
+                    <div className='col-lg-3'>
                       <div className='c-last'>
-                        <p>3</p>
+                        <p style={{ marginBottom: "0px" }}>3</p>
                         <p>Certification Choices</p>
                       </div>
                     </div>
-                    <div className='col-sm-4'>
-                      <div style={{ marginTop: "60px" }}>
-                        <button className='btn btn-primary w-100'><img src={downloadwhite} style={{ width: "20px", height: "100%", marginRight: "10px" }}></img>DOWLNLOAD BROCHURE</button></div>
+                    <div className='col-sm-12 mt-4'>
+                      <div style={{ display: "flex", justifyContent: "center", width: "100%" }}>
+                        <button className='btn btn-primary' onClick={() => setSuccess(true)}><img src={downloadwhite} style={{ width: "20px", height: "100%", marginRight: "10px" }}></img>DOWLNLOAD BROCHURE</button>
+                      </div>
                     </div>
-
                   </div>
                 </div>
               </div>
@@ -482,23 +473,11 @@ function Sample() {
             </div>
           </div>
         </div>
-        <div className='col-lg-12'>
-          <div className='container'>
-            <div className='Invest'>
-              <div className='row'>
-                <div className='col-lg-12'>
-                  <h1>Invest In Your Success</h1>
-                </div>
-              </div>
-            </div>
-          </div>
 
-        </div>
       </div>
       <FormModle
         success={success}
         setSuccess={setSuccess}
-
       ></FormModle>
     </div>
   );

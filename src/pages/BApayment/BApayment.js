@@ -57,7 +57,7 @@ const AUpayment = () => {
                 key: 'rzp_live_03ijsdCrvMvOp9', // Replace with your actual Razorpay API key
                 amount: order.amount,
                 currency: order.currency,
-                name: 'Andhra University',
+                name: 'Bharathidasan University',
                 description: 'Purchase Description',
                 image: 'https://api.123admissions.com/uploads/UniversityLogo/bharathidasan-university.png',
                 order_id: order.id,

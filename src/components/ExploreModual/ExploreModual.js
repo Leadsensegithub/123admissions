@@ -69,12 +69,6 @@ const ExploreModual = ({ setToggle, FromData, setfilter, fetchData }) => {
         sessionStorage.setItem('courses', id);
         window.open(`/sample?${cleanedUrl}`, "_blank");
     }
-
-
-
-
-
-
     return (
         <div className="exploremodual-app-header"
             ref={containerRef}

@@ -603,7 +603,7 @@ const LandingPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container">
+                {/* <div className="container">
                     <div className="row mt-5">
 
                         <h1>Select your <b>Abroad Courses</b></h1>
@@ -631,14 +631,13 @@ const LandingPage = () => {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
 
                 <FormModle
                     success={success}
                     setSuccess={setSuccess}
                 />
             </div>
-
         </>
 
     );
